@@ -3,9 +3,9 @@
 - My notes on the Microsoft Certified: Azure AI Engineer Associate learning path.
 
     >
-    > [📁 Preparar-se para desenvolver soluções de IA no Azure](/notes/01-prep/01-prep.md)
+    > [📁 Prepare for AI engineering](/notes/01-prep/01-prep.md)
     >
-    > [📁 02-cog-serv](/notes/02-cog-serv/02-cog-serv.md)
+    > [📁 Secure Cognitive Services](/notes/02-cog-serv/02-cog-serv.md)
     >
     > [📁 03-proc-text](/notes/03-proc-text/03-proc-text.md)
     >

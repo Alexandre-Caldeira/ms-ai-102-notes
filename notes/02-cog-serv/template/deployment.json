@@ -1,0 +1,58 @@
+{
+    "id": "/subscriptions/da9c5b25-8a9f-4e89-a973-72e6768ff89a/resourceGroups/ms-ai-102/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesAllInOne-20220811114616",
+    "name": "Microsoft.CognitiveServicesAllInOne-20220811114616",
+    "type": "Microsoft.Resources/deployments",
+    "tags": {
+        "marketplaceItemId": "Microsoft.CognitiveServicesAllInOne"
+    },
+    "properties": {
+        "templateHash": "14632880170725549999",
+        "parameters": {
+            "name": {
+                "type": "String",
+                "value": "caldeira-ms-ai-102-cog-services"
+            },
+            "location": {
+                "type": "String",
+                "value": "brazilsouth"
+            },
+            "sku": {
+                "type": "String",
+                "value": "S0"
+            },
+            "tagValues": {
+                "type": "Object",
+                "value": {}
+            },
+            "identity": {
+                "type": "Object",
+                "value": {
+                    "type": "None"
+                }
+            }
+        },
+        "mode": "Incremental",
+        "debugSetting": {
+            "detailLevel": "None"
+        },
+        "provisioningState": "Running",
+        "timestamp": "2022-08-11T18:48:47.2865428Z",
+        "duration": "PT2.4984433S",
+        "correlationId": "7983af30-1aeb-4773-a92c-da0cd22f3601",
+        "providers": [
+            {
+                "namespace": "Microsoft.CognitiveServices",
+                "resourceTypes": [
+                    {
+                        "resourceType": "accounts",
+                        "locations": [
+                            "brazilsouth"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "dependencies": [],
+        "validationLevel": "Template"
+    }
+}
