@@ -1,2 +1,8 @@
-# ms-ai-102-notes
-My notes on the Microsoft Certified: Azure AI Engineer Associate learning path
+# [Process and translate text](https://learn.microsoft.com/en-us/training/paths/process-translate-text-azure-cognitive-services/)
+
+## Extract insights from text with the Language service 
+
+- Notes
+    >
+    > - Regenerate keys
+    >

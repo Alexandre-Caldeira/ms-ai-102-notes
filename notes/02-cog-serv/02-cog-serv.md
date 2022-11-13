@@ -1,6 +1,8 @@
 # [Secure Cognitive Services](https://docs.microsoft.com/en-us/learn/modules/secure-cognitive-services/)
 
-- Consider authentication
+## Consider authentication
+
+- Notes
     >
     > - Regenerate keys
     >
@@ -11,12 +13,17 @@
     > - Azure Active Directory authentication
     >
 
-- Implement network security
+## Implement network security
+
+- Notes
     >
     > - Network access restriction options under "Cognitive services/Networking"
     >
 
-- Lab: Manage Cognitive Services Security
+## Lab: Manage Cognitive Services Security
+
+- Notes
+
     >
     > - Clone the repository for this course: Clone the repository for this course
     >
@@ -67,4 +74,28 @@
     >   - az keyvault set-policy -n caldeira-ms-ai-102-kv --object-id 0e7757b4-073d-4b84-a8d9-b731b34f533b --secret-permissions get list
     >
     > Note: In this exercise, we'll store the service principal credentials in the application configuration and use them to authenticate a ClientSecretCredential identity in your application code. This is fine for development and testing, but in a real production application, an administrator would assign a managed identity to the application so that it uses the service principal identity to access resources, without caching or storing the password.
+    >
+
+## Monitor Cognitive Services
+
+- Notes
+    >
+    > - The scope of the alert rule - in other words, the resource you want to monitor.
+    > - A condition on which the alert is triggered. The specific trigger for the alert is based on a signal type, which can be Activity Log or Metric.
+    > - Optional actions, such as sending an email to an administrator notifying them of the alert, or running an Azure Logic App to address the issue automatically.
+    > - Alert rule details, such as a name for the alert rule and the resource group in which it should be defined.
+    >
+    >
+    >
+    > - Create resources for diagnostic log storage: ou can use Azure Event Hub as a destination in order to then forward the data on to a custom telemetry solution, and you can connect directly to some third-party solutions, or Azure Log Analytics, or Azure Storage.
+    >
+    >
+
+## Using container instances
+
+- Notes
+    >
+    > - docker run --rm -it -p 5000:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/language Eula=accept Billing=https://caldeira-ms-ai-102-cog-services.cognitiveservices.azure.com/ ApiKey=011a2c3f409345b19e8d361cdab998f0
+    >
+    > - curl -X POST "http://localhost:5000/text/analytics/v3.0/languages?" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'on premises bullshit'},{'id':2,'text':'hallo hoe gaat het?'}]}"
     >
