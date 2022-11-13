@@ -1,6 +1,6 @@
 # ms-ai-102-notes
 
-- My notes on the Microsoft Certified: Azure AI Engineer Associate learning path.
+- My notes on the [Microsoft Certified: Azure AI Engineer Associate](https://docs.microsoft.com/pt-br/certifications/azure-ai-engineer/) learning path.
 
     >
     > [📁 Prepare for AI engineering](/notes/01-prep/01-prep.md)
